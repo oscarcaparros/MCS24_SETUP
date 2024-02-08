@@ -32,7 +32,7 @@ variable "regions" {
 variable "user_number-peer-region" {
   description = "Number of user to deploy peer region"
   type        = number
-  default     = 1
+  default     = 15
 }
 
 variable "user_path-prefix" {
